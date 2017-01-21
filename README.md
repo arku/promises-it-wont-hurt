@@ -66,3 +66,14 @@ This repo hosts my solutions for the [NodeSchool](https://nodeschool.io) worksho
   Finally, print out “MAIN PROGRAM” with `console.log`.
 
   [Solution](alwaysAsync.js)
+
+### 5. Shortcuts
+
+  Explore the following three functions
+ 
+  - `catch`
+  - `Promise.resolve`
+  - `Promise.reject`
+
+  [Solution](shortcuts.js)
+
