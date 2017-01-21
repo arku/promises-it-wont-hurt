@@ -52,3 +52,17 @@ This repo hosts my solutions for the [NodeSchool](https://nodeschool.io) worksho
   Note that unlike the prior exercises, you do not have to use `setTimeout` with this.
 
   [Solution](rejectOrNot.js)
+
+### 4. Always asynchronous
+
+  In this lesson, we are going to prove to ourselves that promises are always asynchronous.
+
+  First, create a promise using the Promise constructor.
+
+  In the promise’s executor, immediately fulfill the promise with a value of `'PROMISE VALUE'`.
+
+  After the creation of the promise, pass `console.log` as the success handler to the promise.
+
+  Finally, print out “MAIN PROGRAM” with `console.log`.
+
+  [Solution](alwaysAsync.js)
