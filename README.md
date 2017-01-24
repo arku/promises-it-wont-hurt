@@ -99,3 +99,14 @@ This repo hosts my solutions for the [NodeSchool](https://nodeschool.io) worksho
 
   [Solution](valuesOrPromises.js)
 
+### 8. Throw an error
+
+  Some invalid JSON will be available on process.argv[2].
+
+  * Build a function called `parsePromised` that creates a promise, performs `JSON.parse` in a `try`/`catch` block, and fulfills or rejects the promise depending on whether an error is thrown.
+
+  **Note:** your function should synchronously return the promise!
+  * Build a sequence of steps like the ones shown above that catches xany thrown errors and logs them to the console.
+
+  [Solution](catchInPromises.js)
+
