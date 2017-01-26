@@ -140,3 +140,13 @@ This repo hosts my solutions for the [NodeSchool](https://nodeschool.io) worksho
 
   [Solution](multiplePromises.js)
 
+### 11. Fetch JSON
+
+  Fetch JSON fromal [http://localhost:1337](http://localhost:1337) using `q-io` module and console.log it.
+
+  There are several things you will want to know:
+
+  * `q-io`'s `http` module has a `read` method which returns a promise for the content of a successful (status 200) HTTP request.
+  * Parse the returned JSON and `console.log` it for much win.
+
+  [Solution](fetchJSON.js)
