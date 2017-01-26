@@ -121,3 +121,22 @@ This repo hosts my solutions for the [NodeSchool](https://nodeschool.io) worksho
   If you have done this correctly, your code should print 1,2,3,4,5,"[Error: OH NOES]".  It's important to notice that the thrown exception was turned into a rejected promise which caused the rejected promise to travel down the promise chain to the first available rejection handler.
 
   [Solution](rejectionHandler.js)
+
+### 10. Multiple Promises
+
+  Create a function `all` that accepts two promises as arguments. This all function should do all of the following:
+
+  Create an internal promise in whatever way you see fit.
+
+  Create a counter variable with initial value of 0.
+
+  Attach then fulfillment handlers to both promises and increment the internal counter when the handlers are called.
+
+  When the counter reaches 2, fulfill the internal promise with an array containing both values.
+
+  Finally return that internal promise to the user.
+
+  After you finish writing your `all` function, pass `getPromise1()` and `getPromise2()` into your new function and then attach `console.log` as a fulfillment handler to the promise returned by your function. These two promise-returning functions will be provided to you in the global scope.
+
+  [Solution](multiplePromises.js)
+
