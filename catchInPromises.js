@@ -5,7 +5,7 @@ function parsePromised(json) {
     try {
       resolve(JSON.parse(json));
     } catch(err) {
-      reject(err);
+      reject(err.message);
     }
   });
 }
