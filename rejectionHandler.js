@@ -1,5 +1,5 @@
 const alwaysThrows = () => {
-  throw new Error('OH NOES');
+  throw new Error('OH NOES').message;
 };
 
 const iterate = (number) => {
